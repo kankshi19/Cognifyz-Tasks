@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Greeting Alert</title>
+</head>
+<body>
+
+<script>
+
+    var currentTime = new Date().getHours();
+
+    var greeting;
+
+    if (currentTime < 12) 
+    {
+        greeting = "Good morning!";
+    } 
+    else if (currentTime < 18) 
+    {
+        greeting = "Good afternoon!";
+    } 
+    else 
+    {
+        greeting = "Good evening!";
+    }
+
+    
+    alert(greeting);
+</script>
+
+</body>
+</html>
